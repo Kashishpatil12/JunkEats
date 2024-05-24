@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  list-style: none;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+  /* scroll-behavior: auto; */
+}
+
+
+.navbar-nav .nav-item {
+  margin-right: 5px;
+}
+.navbar-brand img {
+  height: 40px; /* Adjust the logo size */
+}
+.btn1 {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: transparent;
+  
+ }
+
+ .btn1::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgb(246,59,8) 0%, #b89f24ec 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+  
+ }
+ 
+ .btn1:hover::before {
+  width: 9em;
+  
+ }
+ #logo{
+  font-size: 50px;
+ }
+ #logo1{
+  color: rgb(246, 59, 8);
+ }
+ #main-title{
+  font-size: 130px;
+  color: rgb(246, 59, 8);
+  position: absolute;
+ }
+ .bg-hero{
+    background-image: url("image/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+ }
+ .bg-hero1{
+  background-image: url("image/heroimg\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+.bg-hero2{
+  background-image: url("image/heroimg\ \(4\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+.offer-box{
+  background-color: navy;
+  height: 200px;
+}
+.btn2{
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: rgb(34,40,49);
+  font-weight: 500;
+  color: white;
+}
+.btn2:hover{
+  border-radius: 30px;
+  border: 1px solid rgb(40, 3, 49);
+  background-color: white;
+  color: rgb(47, 6, 54);
+  font-weight: 400;
+}
+.offer-card{
+  background-color: rgb(241, 207, 16);
+  height: 310px;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+.offer-card img{
+  border-radius: 100%;
+}
+#menu-title{
+  font-size: 120px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 7px;
+}
+.menu-item li{
+    color: rgb(33,37,41);
+    font-size: 20px;
+}
+.main-title1{
+  color: rgb(244, 128, 11);
+}
+.menu-card img{
+  border-radius: 0px 0px 10px 10px;
+}
+.menu-card .card{
+  text-align: justify;
+}
+#info-head{
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 140px;
+  letter-spacing: 3px;
+}
+.head1{
+  background: rgb(34,40,49);
+  color: white;
+}
+.desc-info{
+  font-size: 18px;
+  text-align: justify; 
+}
+.form-head{
+  font-size: 40px;
+}
+.menu-hr{  
+  height: 15px;
+  background-color: rgb(213,155,45);
+}
+.form-contact input{
+  border: 1px solid black;
+}
+#feedback-sec{
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.your-class {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the slider */
+}
+.your-class img {
+  width: 100%; /* Make images responsive */
+  display: block;
+}
+.footer{
+  background-color: rgb(33,37,41);
+  color: white;
+  height: 350px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+.main-hero-section{
+  display: block;
+}
+@media (max-width: 600px) {
+  .main-hero-section {
+      display: none;
+  }
+}
