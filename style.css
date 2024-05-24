@@ -66,21 +66,21 @@
   position: absolute;
  }
  .bg-hero{
-    background-image: url("image/bg.jpg");
+    background-image: url("bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 700px;
  }
  .bg-hero1{
-  background-image: url("image/heroimg\ \(2\).jpg");
+  background-image: url("heroimg\ \(2\).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 700px;
 }
 .bg-hero2{
-  background-image: url("image/heroimg\ \(4\).jpg");
+  background-image: url("heroimg\ \(4\).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
